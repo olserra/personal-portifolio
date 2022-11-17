@@ -30,16 +30,6 @@ export default async function handler(
     return res.status(403).send('Unauthorized');
   }
 
-  if (req.method === 'DELETE') {
-    await prisma.guestbook.delete({
-      where: {
-        id: Number(id)
-      }
-    });
-
-    return res.status(204).json({});
-  }
-
   if (req.method === 'PUT') {
     const body = (req.body.body || '').slice(0, 500);
 
