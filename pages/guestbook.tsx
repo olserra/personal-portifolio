@@ -1,4 +1,3 @@
-@@ -1, 45 + 0, 0 @@
 import prisma from 'lib/prisma';
 import Container from 'components/Container';
 import Guestbook from 'components/Guestbook';
