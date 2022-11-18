@@ -3,7 +3,6 @@ import Image from 'next/image';
 
 import Container from '../components/Container';
 import BlogPostCard from '../components/BlogPostCard';
-import Subscribe from '../components/Subscribe';
 
 export default function Home() {
   return (
