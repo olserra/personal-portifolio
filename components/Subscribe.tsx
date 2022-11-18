@@ -67,21 +67,8 @@ export default function Subscribe() {
       </form>
       {form.state === Form.Error ? (
         <ErrorMessage>{form.message}</ErrorMessage>
-      ) : form.state === Form.Success ? (
+      ) : form.state === Form.Success ?? (
         <SuccessMessage>{form.message}</SuccessMessage>
-      ) : (
-        <p className="text-sm text-gray-800 dark:text-gray-200">
-          {`${
-            subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'
-          } subscribers – `}
-          <a
-            href="https://www.getrevue.co/profile/leerob"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View all issues
-          </a>
-        </p>
       )}
     </div>
   );
