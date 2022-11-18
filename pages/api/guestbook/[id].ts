@@ -21,8 +21,6 @@ export default async function handler(
     return res.json({
       id: entry.id.toString(),
       body: entry.body,
-      created_by: entry.created_by,
-      updated_at: entry.updated_at
     });
   }
 
