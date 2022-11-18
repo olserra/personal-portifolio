@@ -18,7 +18,7 @@ export default function Home() {
                 React Native Freelancer
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                Helping companies build a faster app. Build an iOS an Android app, faster and cheaper.
+                Helping companies build apps faster. Build an iOS an Android app, faster and cheaper.
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
