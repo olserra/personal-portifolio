@@ -37,7 +37,6 @@ export default async function handler(
       },
       data: {
         body,
-        updated_at: new Date().toISOString()
       }
     });
 

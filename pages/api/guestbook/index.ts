@@ -9,7 +9,7 @@ export default async function handler(
   if (req.method === 'GET') {
     const entries = await prisma.guestbook.findMany({
       orderBy: {
-        updated_at: 'desc'
+        email: 'desc'
       }
     });
 
@@ -40,8 +40,6 @@ export default async function handler(
     return res.status(200).json({
       id: newEntry.id.toString(),
       body: newEntry.body,
-      created_by: newEntry.created_by,
-      updated_at: newEntry.updated_at
     });
   }
 

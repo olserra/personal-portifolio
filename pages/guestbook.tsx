@@ -25,7 +25,7 @@ export default function GuestbookPage({ fallbackData }) {
 export async function getStaticProps() {
   const entries = await prisma.guestbook.findMany({
     orderBy: {
-      updated_at: 'desc'
+      email: 'desc'
     }
   });
 
