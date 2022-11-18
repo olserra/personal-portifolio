@@ -1,7 +1,7 @@
 import 'styles/global.css';
 
 import { ThemeProvider } from 'next-themes';
-import { SessionProvider } from 'next-auth/react';
+import Script from "next/script";
 import { Inter } from '@next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -12,13 +12,24 @@ export default function App({
   pageProps: { session, ...pageProps }
 }) {
   return (
-    <SessionProvider session={session}>
-      <ThemeProvider attribute="class">
-        <main className={interVariable.className}>
-          <Component {...pageProps} />
-          <Analytics />
-        </main>
-      </ThemeProvider>
-    </SessionProvider>
+    <ThemeProvider attribute="class">
+      <main className={interVariable.className}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-E5NV41KVYK"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-E5NV41KVYK');
+        `}
+        </Script>
+        <Component {...pageProps} />
+        <Analytics />
+      </main>
+    </ThemeProvider>
   );
 }

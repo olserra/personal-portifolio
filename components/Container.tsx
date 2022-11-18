@@ -38,7 +38,7 @@ export default function Container(props) {
   const router = useRouter();
   const meta = {
     title: 'Otavio Serra – Developer, writer, creator.',
-    description: `Front-end developer, JavaScript enthusiast, and course creator.`,
+    description: `React Native developer, JavaScript enthusiast, and course creator.`,
     image: 'https://leerob.io/static/images/lee-banner.png',
     type: 'website',
     ...customMeta
