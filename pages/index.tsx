@@ -15,10 +15,10 @@ export default function Home() {
                 Otavio Serra
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                React Native Freelancer
+                Software engineer & Mentor
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                Helping companies build apps faster, writing real, natively rendering mobile applications for iOS and Android.
+                I help companies build apps and websites faster, and developers / tech teams have a clear roadmap for a lifelong learning.
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
 
           <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
-            I can build
+            What I can offer
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
             <BlogPostCard
@@ -43,12 +43,12 @@ export default function Home() {
               gradient="from-[#D8B4FE] to-[#818CF8]"
             />
             <BlogPostCard
-              title="Desktop apps. Looking for a unified desktop experience for your app? We can help."
-              gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
+              title="Websites. Need to start an ecommerce or just create a landing page to market your products and services, let's go."
+              gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             />
             <BlogPostCard
-              title="AR and VR. Using Viro React, a platform for developers to rapidly build augmented reality (AR) and virtual reality (VR) experiences, we can build this as well."
-              gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
+              title="Career mentoring. Not sure how to start or how to take the next step in your software engineer career, I can help you."
+              gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
             />
           </div>
           <a
