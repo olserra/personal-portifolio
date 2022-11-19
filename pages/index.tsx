@@ -15,10 +15,10 @@ export default function Home() {
                 Otavio Serra
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                Software engineer & Mentor
+                React Native Freelancer & Mentor
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                I help companies build apps and websites faster, and developers / tech teams have a clear roadmap for a lifelong learning.
+                I help companies build apps faster, writing real, natively rendering mobile applications for iOS and Android.
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
@@ -43,7 +43,7 @@ export default function Home() {
               gradient="from-[#D8B4FE] to-[#818CF8]"
             />
             <BlogPostCard
-              title="Websites. Need to start an ecommerce or just create a landing page to market your products and services, let's go."
+              title="UI/UX. Need to create the design and the user journey from scratch, I also can help you on that."
               gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             />
             <BlogPostCard
