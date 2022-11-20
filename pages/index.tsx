@@ -43,7 +43,7 @@ export default function Home() {
               gradient="from-[#D8B4FE] to-[#818CF8]"
             />
             <BlogPostCard
-              title="UI/UX. Need to create the design and the user journey from scratch, I also can help you on that."
+              title="Websites. Need to create an ecommerce, a dashboard or a simple landing page, I also can handle this for you."
               gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             />
             <BlogPostCard
