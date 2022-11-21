@@ -15,10 +15,10 @@ export default function Home() {
                 Otavio Serra
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                React Native Freelancer & Mentor
+                React Developer & Career Mentor
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                I help companies build apps faster, writing real, natively rendering mobile applications for iOS and Android.
+                I help companies build clean and functional frontend solutions using ReactJS, and guide either developers and tech teams for a lifelong learning path.
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
@@ -39,11 +39,11 @@ export default function Home() {
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
             <BlogPostCard
-              title="iOS and Android apps. Already running a business on the Web and want to expand and/or shift to Mobile? Nice, let's do it."
+              title="React.js Development From Scratch. Leverage React software capabilities to build a project from start to go."
               gradient="from-[#D8B4FE] to-[#818CF8]"
             />
             <BlogPostCard
-              title="Websites. Need to create an ecommerce, a dashboard or a simple landing page, I also can handle this for you."
+              title="Migration to React. Adopting React functionality, wrapping the code of your existing architecture into React components."
               gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             />
             <BlogPostCard
