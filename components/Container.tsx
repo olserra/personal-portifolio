@@ -74,9 +74,15 @@ export default function Container(props) {
           <div className="ml-[-0.60rem]">
             <MobileMenu />
             <NavItem href="/" text="Home" />
-            <NavItem href="https://www.linkedin.com/in/olserra/" text="LinkedIn" />
+            <NavItem
+              href="https://www.linkedin.com/in/olserra/"
+              text="LinkedIn"
+            />
             <NavItem href="https://github.com/olserra" text="GitHub" />
-            <NavItem href="https://www.instagram.com/olserra/" text="Instagram" />
+            <NavItem
+              href="https://www.instagram.com/olserra/"
+              text="Instagram"
+            />
             <NavItem href="https://twitter.com/olserra" text="Twitter" />
           </div>
           <button
@@ -120,7 +126,6 @@ export default function Container(props) {
         className="flex flex-col justify-center px-8 bg-gray-50 dark:bg-gray-900"
       >
         {children}
-        <Footer />
       </main>
     </div>
   );
