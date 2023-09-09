@@ -61,7 +61,10 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '175ms' }}
           >
-            <a href="https://www.linkedin.com/in/olserra/" className="flex w-auto pb-4">
+            <a
+              href="https://www.linkedin.com/in/olserra/"
+              className="flex w-auto pb-4"
+            >
               LinkedIn
             </a>
           </li>
@@ -69,15 +72,10 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '175ms' }}
           >
-            <a href="https://www.instagram.com/in/olserra/" className="flex w-auto pb-4">
-              Instagram
-            </a>
-          </li>
-          <li
-            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-            style={{ transitionDelay: '175ms' }}
-          >
-            <a href="https://www.twitter.com/in/olserra/" className="flex w-auto pb-4">
+            <a
+              href="https://www.twitter.com/in/olserra/"
+              className="flex w-auto pb-4"
+            >
               Twitter
             </a>
           </li>
@@ -85,7 +83,10 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '175ms' }}
           >
-            <a href="https://www.github.com/olserra/" className="flex w-auto pb-4">
+            <a
+              href="https://www.github.com/olserra/"
+              className="flex w-auto pb-4"
+            >
               GitHub
             </a>
           </li>
