@@ -12,19 +12,7 @@ export default function Home() {
       <Container>
         <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
           <div className="flex flex-col-reverse sm:flex-row items-start mb-8">
-            <div className="flex flex-col pr-8">
-              <h2 className="text-gray-700 dark:text-gray-200">📍 Lisbon</h2>
-              <Link href="https://open.spotify.com/show/3wB8b5r5KQJ0XUt0BMR3jO?si=102c7e7485de40a4">
-                <h2 className="text-gray-700 dark:text-gray-200">
-                  🎙️ Podcaster @Spotify | AI & Performance
-                </h2>
-              </Link>
-              <Link href="https://www.amazon.com/Unlocking-Human-Potential-Transforming-Development-ebook/dp/B0C3W5N45W/ref=sr_1_3?crid=14ZDTQP5DKC9Z&keywords=unlocking+human+potential&qid=1689010933&sprefix=unlocking+human+potentia%2Caps%2C148&sr=8-3">
-                <h2 className="text-gray-700 dark:text-gray-200">
-                  📚 Author @Amazon | Unlocking human potential with AI
-                </h2>
-              </Link>
-            </div>
+            {' '}
             <div className="flex flex-row mb-4">
               <Image
                 alt="Otavio Serra"
@@ -39,9 +27,7 @@ export default function Home() {
                   Otavio Serra
                 </h1>
                 <h2 className="text-xs italic text-gray-700 dark:text-gray-200">
-                  Brazilian entrepreuner, graduated and master in Management,
-                  with experience in Finance, Software Engineering, Product
-                  Management, Strategy and AI.
+                  Entrepreuner, developer, growth hacking enthusiast.
                 </h2>
               </div>
             </div>
@@ -60,8 +46,8 @@ export default function Home() {
               gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             />
           </div>
-          <a
-            href="https://zcal.co/olserra/30min"
+          <Link
+            href="mailto:olserra@gmail.com"
             className="flex items-center mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
           >
             <>
@@ -81,7 +67,7 @@ export default function Home() {
                 />
               </svg>
             </>
-          </a>
+          </Link>
         </div>
       </Container>
     </Suspense>

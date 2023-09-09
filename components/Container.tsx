@@ -72,17 +72,20 @@ export default function Container(props) {
           </a>
           <div className="ml-[-0.60rem]">
             <MobileMenu />
-            <NavItem href="/" text="Home" />
             <NavItem
               href="https://www.linkedin.com/in/olserra/"
               text="LinkedIn"
             />
-            <NavItem href="https://github.com/olserra" text="GitHub" />
-            <NavItem
-              href="https://www.instagram.com/olserra/"
-              text="Instagram"
-            />
             <NavItem href="https://twitter.com/olserra" text="Twitter" />
+            <NavItem href="https://medium.com/@olserra" text="Medium" />
+            <NavItem
+              href="https://www.amazon.com/Unlocking-Human-Potential-Transforming-Development-ebook/dp/B0C3W5N45W/ref=sr_1_3?crid=14ZDTQP5DKC9Z&keywords=unlocking+human+potential&qid=1689010933&sprefix=unlocking+human+potentia%2Caps%2C148&sr=8-3"
+              text="eBook"
+            />
+            <NavItem
+              href="https://open.spotify.com/show/3wB8b5r5KQJ0XUt0BMR3jO?si=102c7e7485de40a4"
+              text="Podcast"
+            />
           </div>
           <button
             aria-label="Toggle Dark Mode"

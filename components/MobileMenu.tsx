@@ -83,6 +83,14 @@ export default function MobileMenu() {
             className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
             style={{ transitionDelay: '175ms' }}
           >
+            <a href="https://medium.com/@olserra" className="flex w-auto pb-4">
+              Medium
+            </a>
+          </li>
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '175ms' }}
+          >
             <a
               href="https://www.github.com/olserra/"
               className="flex w-auto pb-4"
